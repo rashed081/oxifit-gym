@@ -1,11 +1,12 @@
 import React from "react";
-import Banner from "../Banner/Banner";
+import Banner from "./Banner/Banner";
+import InsideOxifit from "./Video/InsideOxifit";
 
 const Oxifit = () => {
   return (
-    <div>
-      <h1>Oxifit component</h1>
+    <div className="grid grid-cols-1">
       <Banner />
+      <InsideOxifit />
     </div>
   );
 };

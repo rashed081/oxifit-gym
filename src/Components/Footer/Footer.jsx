@@ -6,7 +6,7 @@ const Footer = () => {
   let year = d.getFullYear();
 
   return (
-    <footer className=" bg-gray-200 w-full fixed bottom-0 py-3">
+    <footer className=" bg-gray-200 w-full relative bottom-0 py-3">
       <div className="flex justify-between my-3 mx-6">
         <div> map description</div>
         <div>google map</div>

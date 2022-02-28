@@ -9,7 +9,7 @@ const Header = () => {
     visibility ? setVisibility(false) : setVisibility(true);
   };
   return (
-    <nav className="max-w-7xl mx-auto pt-2 bg-gray-100">
+    <nav className="w-full mx-auto pt-2 bg-gray-100">
       <div className="flex justify-between px-4 pb-2">
         {/* {hamberger icon for responsive model} */}
         <div className="md:hidden">
